@@ -1,0 +1,29 @@
+{
+  "name": "algaecal-test",
+  "version": "1.0.0",
+  "description": "Development test assigned by AlgaeCal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danpeltier/AlgaeCal-Test.git"
+  },
+  "keywords": [
+    "development",
+    "test",
+    "gulp",
+    "scss",
+    "api",
+    "design",
+    "wordpress",
+    "bootstrap"
+  ],
+  "author": "Dan Peltier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danpeltier/AlgaeCal-Test/issues"
+  },
+  "homepage": "https://github.com/danpeltier/AlgaeCal-Test#readme"
+}
