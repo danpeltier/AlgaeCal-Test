@@ -1,3 +1,45 @@
 /* Scss Document */
 body {
-  font-family: Glober, Roboto; }
+  font-family: Roboto;
+  font-size: 22px; }
+
+header {
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cccccc; }
+
+.phone-holder {
+  text-align: right; }
+
+.intro {
+  height: 375px;
+  padding: 10px;
+  font-size: 1.1em;
+  color: white;
+  background-image: url("../images/green-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.intro hr {
+  margin-top: 20px;
+  border-color: white; }
+
+.larger {
+  font-size: 1.1em; }
+
+@media only screen and (max-width: 2200px) {
+  .intro {
+    height: 370px; } }
+@media only screen and (max-width: 1200px) {
+  .intro {
+    height: 320px; } }
+@media only screen and (max-width: 992px) {
+  .intro {
+    height: 285px; } }
+@media only screen and (max-width: 768px) {
+  .phone-holder {
+    text-align: left; }
+
+  .intro {
+    height: 300px; } }

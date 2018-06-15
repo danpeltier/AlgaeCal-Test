@@ -1,7 +1,71 @@
 /* Scss Document */
 
-$font-stack: Glober, Roboto;
+$font-stack: /*Glober, */Roboto;
+$body-font-size: 22px;
+$separator-color: #cccccc;
+
+$intro-bg: "../images/green-bg.png";
+$intro-text-color: white;
 
 body{
 	font-family: $font-stack;
+	font-size: $body-font-size;
 }
+
+header{
+	position:relative;
+	padding-bottom:10px;
+	border-bottom: 1px solid $separator-color;
+}
+
+.phone-holder{
+	text-align:right;
+}
+
+.intro{
+	height:375px;
+	padding:10px;
+	font-size:1.1em;
+	color:$intro-text-color;
+	background-image:url($intro-bg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+
+.intro hr{
+	margin-top:20px;
+	border-color: $intro-text-color;
+}
+
+.larger{
+	font-size:1.1em;
+}
+
+@media only screen and (max-width:2200px){
+	.intro{
+		height:370px;
+	}
+}
+
+@media only screen and (max-width:1200px){
+	.intro{
+		height:320px;
+	}
+}
+
+@media only screen and (max-width:992px){
+	.intro{
+		height:285px;
+	}
+}
+
+@media only screen and (max-width:768px){
+	.phone-holder{
+		text-align:left;
+	}
+	.intro{
+		height:300px;
+	}
+}
+
