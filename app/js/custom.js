@@ -12,6 +12,8 @@ $.ajax({
 	  
 	  $(".phone-num").html("<a href='tel:" + phonenum + "'>" + phonenum + "</a>");
 	  
+	  $(".modal-body").html(guarantee);
+	  
 	  var today = new Date();
 	  
 	  var starthour = parseInt(parseInt(officehours[today.getDay()].starting_time)/100);
