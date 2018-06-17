@@ -13,8 +13,8 @@ header {
 
 .intro {
   height: 375px;
-  padding: 10px;
   font-size: 1.1em;
+  padding: 20px;
   color: white;
   background-image: url("../images/green-bg.png");
   background-repeat: no-repeat;
@@ -27,6 +27,101 @@ header {
 
 .larger {
   font-size: 1.1em; }
+
+.phone-num {
+  color: #54b8cd; }
+
+.phone-num a:link {
+  color: #54b8cd;
+  text-decoration: none; }
+
+.phone-num a:visited {
+  color: #54b8cd;
+  text-decoration: none; }
+
+.phone-num a:hover {
+  color: #54b8cd;
+  text-decoration: none; }
+
+.phone-num a:focus {
+  color: #54b8cd;
+  text-decoration: none; }
+
+.phone-num a:active {
+  color: #54b8cd;
+  text-decoration: none; }
+
+.speak-msg {
+  display: none; }
+
+.card {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+  width: 85%;
+  margin: auto; }
+
+.package-contents {
+  color: #54b8cd; }
+
+.package-contents img {
+  width: 80%; }
+
+.price {
+  font-size: 1.4em; }
+
+.price > div {
+  display: inline-block;
+  font-size: 0.5em;
+  text-decoration: underline;
+  vertical-align: middle; }
+
+.highlight {
+  background-image: url("../images/highlight.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center; }
+
+.seal-holder {
+  position: relative;
+  width: 80%;
+  height: 80px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-top: 20px; }
+
+.seal-holder > button {
+  width: 80%; }
+
+.seal-holder > img {
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1000; }
+
+.sale-sticker {
+  box-sizing: border-box;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  position: absolute;
+  right: 0px;
+  top: -40px;
+  z-index: 1000;
+  background-color: #e87b15;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19); }
+
+.sticker35 {
+  top: -10px; }
+
+.most-popular {
+  background-color: #008ba4; }
+
+.most-popular > .text-center {
+  color: white; }
 
 @media only screen and (max-width: 2200px) {
   .intro {
