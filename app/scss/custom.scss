@@ -1,13 +1,6 @@
 /* Scss Document */
 
-$font-stack: Glober,Roboto;
-$body-font-size: 22px;
-$separator-color: #cccccc;
-
-$phone-color: #54b8cd;
-
-$intro-bg: "../images/green-bg.png";
-$intro-text-color: white;
+@import "variables.scss";
 
 body{
 	font-family: $font-stack;
@@ -83,48 +76,48 @@ a:active{
 }
 
 .seal-holder a:link{
-	color:white;
+	color:$button-text-color;
 	text-decoration:none;
 }
 
 .seal-holder a:visited{
-	color:white;
+	color:$button-text-color;
 	text-decoration:none;
 }
 
 .seal-holder a:hover{
-	color:white;
+	color:$button-text-color;
 	text-decoration:none;
 }
 
 .seal-holder a:focus{
-	color:white;
+	color:$button-text-color;
 	text-decoration:none;
 }
 
 .seal-holder a:active{
-	color:white;
+	color:$button-text-color;
 	text-decoration:none;
 }
 
 footer a:link{
-	color:#737373;
+	color:$footer-link-color;
 }
 
 footer a:visited{
-	color:#737373;
+	color:$footer-link-color;
 }
 
 footer a:hover{
-	color:#737373;
+	color:$footer-link-color;
 }
 
 footer a:focus{
-	color:#737373;
+	color:$footer-link-color;
 }
 
 footer a:active{
-	color:#737373;
+	color:$footer-link-color;
 }
 
 .speak-msg{
@@ -137,7 +130,7 @@ footer a:active{
 	width: 0;
 	height: 0;
 	border-top: 6px solid transparent;
-	border-left: 12px solid white;
+	border-left: 12px solid $button-text-color;
 	border-bottom: 6px solid transparent;
 }
 
@@ -167,7 +160,7 @@ footer a:active{
 }
 
 .highlight{
-	background-image:url('../images/highlight.png');
+	background-image:url($highlight-bg);
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center center;
@@ -185,6 +178,7 @@ footer a:active{
 .seal-holder > .btn{
 	width:80%;
 	padding-left:40px;
+	color: $button-text-color;
 }
 
 .seal-holder > img{
@@ -205,11 +199,12 @@ footer a:active{
 	padding-right:0px;
 	padding-left:50px;
 	font-size:0.8em;
+	color: $button-text-color;
 }
 
 .sale-sticker{
 	box-sizing:border-box;
-	color:white;
+	color:$sticker-text-color;
 	font-weight:bold;
 	text-align:center;
 	padding-top:10px;
@@ -220,7 +215,7 @@ footer a:active{
 	right:0px;
 	top:-40px;
 	z-index:1000;
-	background-color:#e87b15;
+	background-color: $sticker-bg-color;
 	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -229,15 +224,15 @@ footer a:active{
 }
 
 .most-popular{
-	background-color:#008ba4;
+	background-color: $most-popular-bg-color;
 }
 
 .most-popular > .text-center{
-	color:white;
+	color: $most-popular-text-color;
 }
 
 .facts{
-	border:3px solid black;
+	border:3px solid $facts-border-color;
 	padding:5px;
 }
 
@@ -252,7 +247,7 @@ footer a:active{
 }
 
 .tbl-divider{
-	background-color:black;
+	background-color: $facts-border-color;
 	font-size:0.4em;
 }
 
@@ -261,7 +256,7 @@ footer a:active{
 }
 
 .guarantee{
-	background-image:url('../images/green-bg.png');
+	background-image:url($guarantee-bg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center center;
@@ -272,7 +267,7 @@ footer a:active{
 }
 
 .guarantee h2{
-	color:#e87b15;
+	color: $guarantee-heading-color;
 }
 
 .dean-neuls{
@@ -285,12 +280,12 @@ footer a:active{
 }
 
 .as-seen-on h2{
-	background-color:#4d823e;
-	color:white;
+	background-color: $as-seen-heading-bg-color;
+	color: $as-seen-heading-text-color;
 }
 
 .as-seen-on .row{
-	color:black;
+	color:$as-seen-text-color;
 }
 
 .as-seen-on .first-row img{
@@ -308,8 +303,8 @@ footer a:active{
 }
 
 .science{
-	background-color:white;
-	color:black;
+	background-color: $science-bg-color;
+	color:$science-text-color;
 	padding:10%;
 	margin:auto;
 }

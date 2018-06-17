@@ -145,7 +145,8 @@ footer a:active {
 
 .seal-holder > .btn {
   width: 80%;
-  padding-left: 40px; }
+  padding-left: 40px;
+  color: white; }
 
 .seal-holder > img {
   height: 80px;
@@ -162,7 +163,8 @@ footer a:active {
   padding: 18px;
   padding-right: 0px;
   padding-left: 50px;
-  font-size: 0.8em; }
+  font-size: 0.8em;
+  color: white; }
 
 .sale-sticker {
   box-sizing: border-box;
