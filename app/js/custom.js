@@ -32,3 +32,24 @@ $.ajax({
 	  
   }
 });
+
+//watch video status and display/hide packages accordingly
+
+window._wq = window._wq || [];
+_wq.push({ id: "cecdwaq3dz", onReady: function(video) {
+	//alert("I got a handle to the video!", video);
+	var vid = Wistia.api("cecdwaq3dz");
+	
+	vid.bind("timechange", function(t) {
+		if(t >= 133.0){
+			$(".packages").show();
+		}
+		else{
+			$(".packages").hide();
+		}
+	});
+	
+}});
+
+$(".packages").hide();
+
