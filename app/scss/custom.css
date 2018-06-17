@@ -29,23 +29,23 @@ header {
   font-size: 1.1em; }
 
 a:link {
-  color: red;
+  color: #54b8cd;
   text-decoration: underline; }
 
 a:visited {
-  color: red; }
+  color: #54b8cd; }
 
 a:hover {
-  color: red; }
+  color: #54b8cd; }
 
 a:focus {
-  color: red; }
+  color: #54b8cd; }
 
 a:active {
-  color: red; }
+  color: #54b8cd; }
 
 .phone-num {
-  color: red; }
+  color: #54b8cd; }
 
 .phone-num a:link {
   text-decoration: none; }
@@ -115,7 +115,7 @@ footer a:active {
   margin: auto; }
 
 .package-contents {
-  color: red; }
+  color: #54b8cd; }
 
 .package-contents img {
   width: 80%; }
@@ -254,7 +254,7 @@ footer a:active {
   margin: auto; }
 
 .science h3 {
-  color: red; }
+  color: #54b8cd; }
 
 @media only screen and (max-width: 2200px) {
   .intro {
